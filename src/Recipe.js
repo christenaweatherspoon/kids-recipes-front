@@ -5,13 +5,13 @@ class Recipe extends Component {
   render () {
     return (
       <div>
-        {this.props.currentRecipe.name}
+        <h1>{this.props.currentRecipe.name}</h1>
+        {this.props.currentRecipe.ingredients}
+        {this.props.currentRecipe.instructions}
       </div>
     )
   }
 }
-
-
 
 
 export default Recipe
